@@ -1,7 +1,9 @@
 sap.ui.define([
-    
-], () => {
+    "sap/m/Table"
+], (t) => {
     "use strict";
 
-    alert("Hello, SAP UI5!");
+    new t({
+        text : "Hello, SAP UI5!"
+    }).placeAt("content");
 })

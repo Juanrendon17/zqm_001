@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@sap/ux-ui5-tooling": "^1.18.3",
-    "@ui5/cli": "^4.0.22"
+    "@ui5/cli": "^4.0.22",
+    "ui5-middleware-simpleproxy": "^3.4.3"
   }
 }

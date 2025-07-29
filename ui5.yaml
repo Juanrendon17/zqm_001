@@ -13,6 +13,19 @@ server:
           url: https://sapui5.hana.ondemand.com/
     - name: fiori-tools-appreload
       afterMiddleware: compression
+    - name: ui5-middleware-simpleproxy
+      afterMiddleware: compression
+      mountPath: /ZQM_001_ODATA_CDS
+      configuration:
+      baseUri: "https://vhqbops4ci.sap.qbco.com.co:44300/sap/opu/odata/sap"
+      username: jatehortua
+      password: Datosqbco1!!
+      httpHeaders:
+        Any-Header: AnyHeader
+      query:
+        sap-client: '300'
+      excludePatterns:
+      - "/local/**"
 # framework:
 #   name: OpenUI5
 #   version: "1.138.0"
