@@ -1,0 +1,18 @@
+{
+    "_version": "1.72.0",
+    "sap.app" : {
+        "id" : "com.qbco.zqm_001",
+        "type" : "application",
+        "title" : "ZQM_001",
+        "description": "Reporte de caracteristicas lotes de inspeccion",
+        "applicationVersion" : {
+            "version" : "1.0.0"
+        }
+    },
+    "sap.ui" : {
+
+    },
+    "sap.ui5" : {
+        
+    }
+}
